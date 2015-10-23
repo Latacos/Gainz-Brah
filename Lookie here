@@ -1,3 +1,4 @@
+
 package lel;
 import java.util.Scanner;
 
@@ -16,14 +17,18 @@ public class lel {
 		else{
 			System.out.println("Whatsa matta for u");
 		}
-		System.out.println("nother numba");
+		System.out.println("nother numba above 2222");
 		int dg = LEEL.nextInt();
 		while(dg >= 2222){
 			System.out.println(dg);
 			dg--;
-				}
-			if(dg < 2222){
+			while(dg < 2222){
 				System.out.println(dg);
 				dg++;
 				}
 		}
+			
+		}
+		
+	
+}
