@@ -1,0 +1,29 @@
+package lel;
+import java.util.Scanner;;
+
+public class lel {
+	
+	public static void main (String args[]){
+	
+		Scanner LEEL = new Scanner(System.in);
+		System.out.println("Give a number lol");
+		int Cat = LEEL.nextInt();
+		
+		if(Cat > 10){
+	
+	System.out.println("Jack is a dirty sloil");
+		}
+		else{
+			System.out.println("Whatsa matta for u");
+		}
+		System.out.println("nother numba");
+		int dg = LEEL.nextInt();
+		while(dg >= 2222){
+			System.out.println(dg);
+			dg--;
+				}
+			if(dg < 2222){
+				System.out.println(dg);
+				dg++;
+				}
+		}
