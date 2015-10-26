@@ -1,0 +1,19 @@
+public class Carolinablues {
+
+	public static void main(String[] args) {
+		int mon[] = new int[15];
+
+		mon[0] = 2;
+		mon[1] = 44;
+		mon[2] = 22;
+		System.out.println(mon[0]);
+		
+		
+		
+		int kel[] = {3,4,33};
+		for(int counter = 0; counter < kel.length; counter++){
+			System.out.println(counter + "\t" + kel[counter]);
+		}
+		}
+
+}
