@@ -1,0 +1,36 @@
+import javax.swing.*;
+import java.awt.*;
+public class Strobe {
+	
+	private JFrame f;
+	private JPanel p;
+	private JButton b;
+	private JLabel l; 
+
+	public Strobe()
+	{
+		
+		gui();
+	}
+	
+	public void gui(){
+		f = new JFrame("lolzuh");
+		f.setVisible(true);
+		f.setSize(500, 500);
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		p = new JPanel();
+		p.setBackground(Color.BLUE);
+		f.add (p);
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		
+		new Strobe();
+		
+		
+	}
+
+}
